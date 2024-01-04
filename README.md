@@ -6,32 +6,34 @@ It does not matter. What matters is that others can hear it. For that, you need 
 
 ## The path
 
-First, you, the one who speaks or sings. In order for the device to hear you to send the signal along, it needs to have a microphone. Phones already have one built in (so they can phone), but if you are using a computer, you need to buy a mic.
+### Sound origin
+
+You, the one who speaks or sings. In order for the device to hear you to send the signal along, it needs to have a microphone. Phones already have one built in (so they can phone), but if you are using a computer, you need to buy a mic.
 
 Be mindful of everything *other* than you in the vicinity of the microphone. Everything that you can hear, the mic probably can, too, even the echo off the walls and the hum of a fridge or AC.
 
-## Microphones
+### Microphones
 
 Which one to get? I'll give you a short tierlist of microphones you can use.
 
-### Garbage:
+#### Garbage:
 * The built-in microphone of your laptop.
 * Anything Bluetooth (headphones, headset, etc).
 * Not having a microphone.
 
-### Acceptable:
+#### Acceptable:
 * Your phone mic.
 * A mic on a cheap headset (<$20).
 * The dingy thing on your earbuds wire.
 
-### Good:
+#### Good:
 * Wired headset with a quality mic. It will usually cost no less than $50.
 * A USB mic on a desk stand. Good ones start from, at minimum, $40.
 
-### Better:
+#### Better:
 * A USB mic on a mic arm.
 
-### Absolute peak:
+#### Absolute peak:
 * An XLR-connected mic on a mic arm, plugged into a USB audio interface. This will cost you in the vicinity of $150 - $200.
 
 Here's some reasoning behind this ranking.
@@ -46,7 +48,7 @@ USB mics are usually fine, but the cheap ones will sound extra bad because the m
 
 XLR mic + DAC is *the* professional setup which ensures no quality loss at any point in the chain, but it's an expensive one. XLR is the name of the connector/cable for the mic, and DAC is digital audio converter, aka audio interface. It converts the electrical signals of your mic into something the computer can read.
 
-## What you plug it into
+### What you plug it into
 
 This will depend on the mic setup you've chosen.
 
@@ -70,19 +72,19 @@ Depending on the type of XLR mic you have, it may require +48V power from your a
 
 Also, your headphones will then go in the audio interface as well. They may need a plug adapter from smol headphone jack to the big one.You can also plug your speakers into it, requiring another type of audio cable.
 
-## The software side
+### The software side
 
 Let's discuss the next step in the chain of sound. Once you've plugged in your stuff, you need to check it's actually working.
 
 This is where things start to get annoying. You've already spent the money, now we start spending braincells.
 
-### Linux
+#### Linux
 
 Good luck. You got this.
 
-### Windows
+#### Windows
 
-#### The system sound settings
+##### The system sound settings
 
 You need to open the Sound Settings Panel (the old one (the good one)) in Windows. Press Win+R, type `mmsys.cpl` and press Enter. You can also get to it by typing "Change system sounds" in the Start menu search.
 
@@ -106,7 +108,7 @@ Once you've found the correct devices and figured out what their names are (reme
 >
 > While you're there, disable all "Enhancements" too, if there are any. We can bring them back later, but you should always start with a clean signal.
 
-#### Voicemeeter
+##### Voicemeeter
 
 There are many, many ways to go about mixing your audio, but the easiest one would be to use [Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm). It will allow you to:
 
