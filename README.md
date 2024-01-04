@@ -120,6 +120,12 @@ The main purpose of Voicemeeter is to mix and route multiple audio sources, as w
 
 There's also a "fake microphone" part of it, which will take the mixed audio from Voicemeeter and show up as a microphone in your programs - this is how you send the mixed audio to Discord, for example.
 
-
+[ ... ]
+Player setup
+Ear Trumpet
+Discord setup
+Effects
+ASIO
+Mac OS
 
 
