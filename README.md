@@ -83,10 +83,6 @@ Let's discuss the next step in the chain of sound. Once you've plugged in your s
 
 This is where things start to get annoying. You've already spent the money, now we start spending braincells.
 
-#### Linux
-
-Good luck. You got this.
-
 #### Windows
 
 ##### The system sound settings
