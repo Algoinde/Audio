@@ -8,6 +8,8 @@ It does not matter. What matters is that others can hear it. For that, you need 
 
 ### Sound origin
 
+![image](https://github.com/Algoinde/Audio/assets/10269970/780e6701-9f58-41cd-b095-ae544e0c92b7)
+
 You, the one who speaks or sings. In order for the device to hear you to send the signal along, it needs to have a microphone. Phones already have one built in (so they can phone), but if you are using a computer, you need to buy a mic.
 
 Be mindful of everything *other* than you in the vicinity of the microphone. Everything that you can hear, the mic probably can, too, even the echo off the walls and the hum of a fridge or AC.
@@ -40,6 +42,8 @@ Here's some reasoning behind this ranking.
 
 The laptop mics are usually designed for phone calls and are far away from you, plus laptop manafacturers will pour a lot of noise cancelling on top of these, making the audio sound distant and mushy.
 
+![image](https://github.com/Algoinde/Audio/assets/10269970/4730ada3-47ac-461d-9057-bd0c6f2e1800)
+
 Bluetooth will introduce lots of delay, plus the audio quality of the Bluetooth channel itself is awful in headset mode.
 
 Phone mics are pretty good, but it will be hard to use them for anything other than voice calls off the phone itself.
@@ -48,25 +52,26 @@ USB mics are usually fine, but the cheap ones will sound extra bad because the m
 
 XLR mic + DAC is *the* professional setup which ensures no quality loss at any point in the chain, but it's an expensive one. XLR is the name of the connector/cable for the mic, and DAC is digital audio converter, aka audio interface. It converts the electrical signals of your mic into something the computer can read.
 
+![image](https://github.com/Algoinde/Audio/assets/10269970/663c9fd0-04b8-451a-ab84-4a73eddd8e47)
+
 ### What you plug it into
 
 This will depend on the mic setup you've chosen.
 
 If it's like this, it will go into your headset jack.
 
-[pic]
+![image](https://github.com/Algoinde/Audio/assets/10269970/fa7285ee-a0cf-4a13-af6e-3f6782b00dcf)
 
 Some PCs may not have a headset jack, but they will have a separate mic and headphone jack. In this case, you will also need a splitter cable like this.
 
-[pic]
+![image](https://github.com/Algoinde/Audio/assets/10269970/9eeb7a29-aa36-470c-bef2-f7559eb386c8)
+
 
 If you have a USB mic, it will go into a USB port (and in some rare cases, may require you to install driver software from the manafacturers' website).
 
-[pic]
-
 If you have an XLR mic, it will go into a USB audio interface with an XLR cable, which will then go into a USB port. The audio interface will also probably require a driver installation.
 
-[pic]
+![image](https://github.com/Algoinde/Audio/assets/10269970/1c5e863c-69b1-4d75-be72-1efb760c7c2d)
 
 Depending on the type of XLR mic you have, it may require +48V power from your audio interface (also called phantom power). Please check if your mic needs it and if your audio interface can provide it, and ONLY turn it on with the mics that need it (can be found in the mic manual). As a rule of thumb, condenser mics need it, dynamic and membrane mics don't (I'll explain the sound difference between those later).
 
