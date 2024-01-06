@@ -91,7 +91,11 @@ You need to open the Sound Settings Panel (the old one (the good one)) in Window
 
 In the "Playback" tab it will show you all the devices that are able to take the sound produced inside the computer and then blast it into the real world (headphones, speakers, the display and so on).
 
+![image](https://github.com/Algoinde/Audio/assets/10269970/830f55a4-d31e-40df-9c27-01fd1e230f80)
+
 In the "Recording" tab it will show you all the devices that can take the sound from somewhere (usually the real world) and bring it into the computer (microphones).
+
+![image](https://github.com/Algoinde/Audio/assets/10269970/5f1882e8-b954-4a84-b950-1269ccf4a6ac)
 
 What the names and icons are will depend entirely on your PC and what you have plugged in. You'll have to use common sense and experimentation to figure out what device represents what. Play some music and see what Playback devices' level meter is moving. You can change between them by right-clicking and selecting "Set as default device" - the one that is default will have a green checkmark on it.
 
