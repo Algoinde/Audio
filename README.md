@@ -148,7 +148,19 @@ The main purpose of Voicemeeter is to mix and route multiple audio sources, as w
 > 
 > Same goes for Recording tab, where it will be called `Voicemeeter Output`. It is the overall output of Voicemeeter, but from the point of view of other programs, it will be their input.
 
-"Voicemeeter Output" is a "virtual microphone". It's not a real mic, but it will show up as an audio source in your applications - this is how you send the mixed audio to Discord, for example. Apps will think it's a microphone (an audio source), but it's not actually getting sound directly from the real world (that's why it's called "virtual").
+#### Inputs and outputs?
+
+It can get confusing with "playback", "recording", inputs, outputs, sources and destinations, especially when different programs call it different things.
+
+Let's define all of them properly.
+
+You have a microphone. For the computer, that's an **audio source**. The audio information is created in the mic by capturing your voice, sent over the wire and the computer receives it.
+
+To receive the signal, the computer needs an **audio input**. That's your microphone/headset jack in the computer, audio comes in here. Once plugged in, it will show up in the computer as **input device**. You're speaking into it, it sends sounds to the computer. From the point of view of the computer, that's input. Same as your keyboard - it is an *input device*.
+
+The confusing thing about it is that an *audio source* can also be running on your computer - for example, a music player app. It's also an audio source, but it's "inside". What is inside can come out, though - so you select an **output device** to play your sound. It is connected to the **audio output** of your computer (headphone jack, for example).
+
+If it's a headset, it will have both input and output in the same jack. Sound input will come from the mic on the headset and sound output will go to your headphones.
 
 [ ... ]  
 Player setup  
