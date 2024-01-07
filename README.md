@@ -183,7 +183,7 @@ In the top left, click `1` near "Microphone" to select your Microphone device (r
 For this one, you don't need to set anything up in VM. Simply select "Voicemeeter Input" as the output device of your player (in the system [Mixer settings](#choosing-devices-per-application)).
 
 #### 3. Listen to the result
-In the right section of VM, you can choose where it will output the sound to. Click on `A1` and select the device through which you want the music to play. Use the same option (WDM, MME, KS) as the input.
+In the right section of VM, you can choose where it will output the sound to. Click on `A1` on the top right and select the device through which you want the music to play. Use the same option (WDM, MME, KS) as the input.
 
 > [!WARNING]
 > If you select your speakers, things could become VERY LOUD. Your microphone may start picking up your speakers, and then putting the sound back into speakers again, creating what is known as "feedback loop". **It's better to use headphones**.
