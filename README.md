@@ -12,8 +12,6 @@ It does not matter. What matters is that others can hear it. For that, you need 
 
 You, the one who speaks or sings. In order for the device to hear you to send the signal along, it needs to have a microphone. Phones already have one built in (so they can phone), but if you are using a computer, you need to buy a mic.
 
-Be mindful of everything *other* than you in the vicinity of the microphone. Everything that you can hear, the mic probably can, too, even the echo off the walls and the hum of a fridge or AC.
-
 ## Microphones
 
 Which one to get? I'll give you a short tierlist of microphones you can use.
@@ -176,4 +174,6 @@ Effects
 ASIO  
 Mac OS  
 
+
+> Be mindful of everything *other* than you in the vicinity of the microphone. Everything that you can hear, the mic probably can, too, even the echo off the walls and the hum of a fridge or AC.
 
