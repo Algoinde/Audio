@@ -224,19 +224,16 @@ Things rarely go like you want them to. Here's what you might encounter:
   
 </details>
 
-//
 
-//
+# 
 
-//
+---
 
-[ to write... ]  
-Ear Trumpet  
-Discord setup  
-Effects  
-ASIO  
-Mac OS  
-
-
+> [ to write... ]  
+> Ear Trumpet  
+> Discord setup  
+> Effects  
+> ASIO  
+> Mac OS  
 > Be mindful of everything *other* than you in the vicinity of the microphone. Everything that you can hear, the mic probably can, too, even the echo off the walls and the hum of a fridge or AC.
 
