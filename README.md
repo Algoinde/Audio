@@ -166,7 +166,7 @@ The main purpose of Voicemeeter is to mix and route multiple audio sources, as w
 > 
 > Same goes for Recording tab, where it will be called `Voicemeeter Output`. Voicemeeter will be the *audio source* in this case, and that device is "output of Voicemeeter". But from the point of view of other programs, it will be an *input device*, because they can listen to it.
 >
-> It's a bit confusing, but hopefully you get what I mean by "point of view".
+> It's a bit confusing. The naming makes more sense if you read it as "Voicemeeter's Input" and "Voicemeeter's Output". You can even double-click and rename them so it's less confusing.
 
 [ ... ]  
 Player setup  
