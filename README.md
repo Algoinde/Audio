@@ -202,7 +202,7 @@ You can disable (`▸A`) on your microphone if you don't want to hear yourself t
 Things rarely go like you want them to. Here's what you might encounter:
 
 <details>
-  <summary>**Delay**: if there's significant delay between you talking and hearing yourself, try going here:</summary>
+  <summary><b>Delay</b> <i>[click to expand]</i></summary>
 
   ![image](https://github.com/Algoinde/Audio/assets/10269970/abd4ac29-ed06-43e4-b28c-9d7a7b6425fc)
   ![image](https://github.com/Algoinde/Audio/assets/10269970/c8c69731-19d4-48c3-9177-64d3c3a216cb)
