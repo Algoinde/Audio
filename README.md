@@ -177,13 +177,13 @@ Things we need to do here are:
 4. Send the combined VM audio to Discord
 
 #### 1. Microphone
-In the top left, click `1` near "Microphone" to select your Microphone device (remember what it was called?). There will be several copies of the same thing, but they will be "WDM", "KS", "MME" - choose the one with WDM. If it doesn't work, try the MME one. If *that* doesn't work, try the KS one.
+In the top left, click `1` near "Microphone" to select your Microphone device (remember what it was called?). There will be several copies of the same thing, but they will be "WDM", "KS", "MME" - choose the one with WDM. If it doesn't work, try the MME one. If *that* doesn't work, try the KS one. It's just different ways to grab the audio source.
 
 #### 2. Music player
 For this one, you don't need to set anything up in VM. Simply select "Voicemeeter Input" as the output device of your player (in the system [Mixer settings](#choosing-devices-per-application)).
 
 #### 3. Listen to the result
-In the right section of VM, you can choose where it will output the sound to. Click on `A1` and select the device through which you want the music to play.
+In the right section of VM, you can choose where it will output the sound to. Click on `A1` and select the device through which you want the music to play. Use the same option (WDM, MME, KS) as the input.
 
 > [!WARNING]
 > If you select your speakers, things could become VERY LOUD. Your microphone may start picking up your speakers, and then putting the sound back into speakers again, creating what is known as "feedback loop". **It's better to use headphones**.
@@ -201,10 +201,16 @@ You can disable (`▸A`) on your microphone if you don't want to hear yourself t
 #### 3a. The issues
 Things rarely go like you want them to. Here's what you might encounter:
 
-**Delay**: if there's significant delay between you talking and hearing yourself, try going 
+**Delay**: if there's significant delay between you talking and hearing yourself, try going here:
+
+![image](https://github.com/Algoinde/Audio/assets/10269970/abd4ac29-ed06-43e4-b28c-9d7a7b6425fc)
+![image](https://github.com/Algoinde/Audio/assets/10269970/c8c69731-19d4-48c3-9177-64d3c3a216cb)
+
+Big scary window. We only need to pay attention to two things here. Click on "Buffering WDM" (if that's what you've chosen) and chose 64. Now check that there are a) no errors after that b) the `buf:` thing above says the same number you've chosen (or close to it). If it falls back to 1024 or 512, that means it failed. Click the Buffering button again and select the next number above 64. If that fails again, go for the next highest number until the `buf:` thing shows the correct number. It'll probably be 128 or 256, depends on your system. The lower the better.
+
+This should resolve the delay. If it doesn't, try closing this window and switching everything to MME instead (the mic, the output). After that, return and do the same process with `Buffering MME`.
 
 [ ... ]  
-Player setup  
 Ear Trumpet  
 Discord setup  
 Effects  
