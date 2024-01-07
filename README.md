@@ -166,6 +166,43 @@ The main purpose of Voicemeeter is to mix and route multiple audio sources, as w
 >
 > It's a bit confusing. The naming makes more sense if you read it as "Voicemeeter's Input" and "Voicemeeter's Output". You can even double-click and rename them so it's less confusing.
 
+Let's break down Voicemeeter itself now (I'll call it VM).
+
+![image](https://github.com/Algoinde/Audio/assets/10269970/21a98838-35af-48ad-a860-8b7a8ce4c8da)
+
+Things we need to do here are:
+1. Put our microphone inside VM
+2. Put our music player inside VM
+3. Listen to music *and* the voice in our headphones
+4. Send the combined VM audio to Discord
+
+#### 1. Microphone
+In the top left, click `1` near "Microphone" to select your Microphone device (remember what it was called?). There will be several copies of the same thing, but they will be "WDM", "KS", "MME" - choose the one with WDM. If it doesn't work, try the MME one. If *that* doesn't work, try the KS one.
+
+#### 2. Music player
+For this one, you don't need to set anything up in VM. Simply select "Voicemeeter Input" as the output device of your player (in the system [Mixer settings](#choosing-devices-per-application)).
+
+#### 3. Listen to the result
+In the right section of VM, you can choose where it will output the sound to. Click on `A1` and select the device through which you want the music to play.
+
+> [!WARNING]
+> If you select your speakers, things could become VERY LOUD. Your microphone may start picking up your speakers, and then putting the sound back into speakers again, creating what is known as "feedback loop". **It's better to use headphones**.
+
+Now, there's big `▸A` and `▸B` buttons to the left of each volume slider.
+
+If `▸A` is enabled, it means the sound from that channel will go to the device you've chosen in `A1` just now.
+
+If `▸B` is enabled, the sound will go to `Voicemeeter Output` device that you can use in other apps as input.
+
+So, we want to keep all of these enabled. We want to hear the music and the voice to check that it's all there (`▸A`), and we want all of that to go to Discord, too (`▸B`).
+
+You can disable (`▸A`) on your microphone if you don't want to hear yourself talk, but I usually leave it on at all times.
+
+#### 3a. The issues
+Things rarely go like you want them to. Here's what you might encounter:
+
+**Delay**: if there's significant delay between you talking and hearing yourself, try going 
+
 [ ... ]  
 Player setup  
 Ear Trumpet  
