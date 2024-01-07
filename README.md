@@ -147,7 +147,9 @@ In the top "System" section will be your default-chosen devices (this part is pr
 In the "Apps" below you will see all applications that are outputting sound at the moment. Click on any of them and choose a device for them to use - easy! Don't forget you may need to restart playback or the app for it to realize the output had been changed.
 
 The second way is to set this up in the app itself. Some apps have audio settings and allow you to select what device to use - in Discord, for example, you need to go to Settings -> Voice & Video and select them there.  
-"Input device" in applications usually means "this is what I will get sound from" (a microphone), and "Output device" means "this is what I will send sound to" (speakers).
+
+> [!NOTE]
+> Once more: "Input device" inside applications usually means "this is what I will get sound from", and "Output device" means "this is what I will send sound to".
 
 ### Voicemeeter
 
