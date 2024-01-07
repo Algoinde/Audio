@@ -86,9 +86,7 @@ Let's discuss the next step in the chain of sound. Once you've plugged in your s
 
 This is where things start to get annoying. You've already spent the money, now we start spending braincells.
 
-#### Windows
-
-##### The system sound settings
+#### Windows: The system sound settings
 
 You need to open the Sound Settings Panel (the old one (the good one)) in Windows. Press Win+R, type `mmsys.cpl` and press Enter. You can also get to it by typing "Change system sounds" in the Start menu search.
 
@@ -116,7 +114,26 @@ Once you've found the correct devices and figured out what their names are (reme
 >
 > While you're there, disable all "Enhancements" too, if there are any. We can bring them back later, but you should always start with a clean signal.
 
-##### Voicemeeter
+#### Choosing devices per-application
+
+What you just did in the section above was setting the *default* input or output. Programs can choose to not respect this default and you can pick different devices for different programs.
+
+There's two ways to do this. The first one is in the system itself:
+
+![image](https://github.com/Algoinde/Audio/assets/10269970/605564c8-c613-4687-a585-189c4aa3fd0e)
+
+Right click your audio icon and go to Volume mixer.
+
+![image](https://github.com/Algoinde/Audio/assets/10269970/c522a0ec-34ad-455a-9c02-62f51cd60362)
+
+In the top "System" section will be your default-chosen devices (this part is pretty much the same as the window we opened before, but it's new and clunky).
+
+In the "Apps" below you will see all applications that are outputting sound at the moment. Click on any of them and choose a device for them to use - easy! Don't forget you may need to restart playback or the app for it to realize the output had been changed.
+
+The second way is to set this up in the app itself. Some apps have audio settings and allow you to select what device to use - in Discord, for example, you need to go to Settings -> Voice & Video and select them there.  
+"Input device" in applications usually means "this is what I will get sound from" (a microphone), and "Output device" means "this is what I will send sound to" (speakers).
+
+#### Voicemeeter
 
 There are many, many ways to go about mixing your audio, but the easiest one would be to use [Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm). It will allow you to:
 
