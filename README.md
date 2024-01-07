@@ -128,6 +128,7 @@ The main purpose of Voicemeeter is to mix and route multiple audio sources, as w
 
 > [!NOTE]
 > In Playback, it will be called `Voicemeeter Input`. Why? From the point of view of Voicemeeter, that is indeed input. For other programs though, it sits at their output.
+> 
 > Same goes for Recording tab, where it will be called `Voicemeeter Output`. It is the overall output of Voicemeeter, but for other programs, it will be their input.
 
 There's also a "fake microphone" part of it, which will take the mixed audio from Voicemeeter and show up as a microphone in your programs - this is how you send the mixed audio to Discord, for example.
