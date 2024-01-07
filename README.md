@@ -212,6 +212,8 @@ Things rarely go like you want them to. Here's what you might encounter:
   Big scary window. We only need to pay attention to two things here. Click on "Buffering WDM" (if that's what you've chosen) and chose 64. Now check that there are a) no errors after that b) the `buf:` thing above says the same number you've chosen (or close to it). If it falls back to 1024 or 512, that means it failed. Click the Buffering button again and select the next number above 64. If that fails again, go for the next highest number until the `buf:` thing shows the correct number. It'll probably be 128 or 256, depends on your system. The lower the better.
   
   This should resolve the delay. If it doesn't, try closing this window and switching everything to MME instead (the mic, the output). After that, return and do the same process with `Buffering MME`.
+
+  Also, are you using Bluetooth? I really hope you aren't.
 </details>
 
 //
