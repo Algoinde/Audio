@@ -114,6 +114,20 @@ Once you've found the correct devices and figured out what their names are (reme
 >
 > While you're there, disable all "Enhancements" too, if there are any. We can bring them back later, but you should always start with a clean signal.
 
+#### Inputs and outputs?
+
+It can get confusing with "playback", "recording", inputs, outputs, sources and destinations, especially when different programs call it different things.
+
+Let's define all of them properly.
+
+You have a microphone. For the computer, that's an **audio source**. The audio information is created in the mic by capturing your voice, sent over the wire and the computer receives it.
+
+To receive the signal, the computer needs an **audio input**. That's your microphone/headset jack in the computer, audio comes in here. Once plugged in, it will show up in the computer as **input device**. You're speaking into it, it sends sounds to the computer. From the point of view of the computer, that's input. Same as your keyboard - it is an *input device*.
+
+The confusing thing about it is that an *audio source* can also be running on your computer - for example, a music player app. It's also an audio source, but it's "inside". What is inside can come out, though - so you select an **output device** to play your sound. It is connected to the **audio output** of your computer (headphone jack, for example).
+
+If it's a headset, it will have both input and output in the same jack. Sound input will come from the mic on the headset and sound output will go to your headphones.
+
 #### Choosing devices per-application
 
 What you just did in the section above was setting the *default* input or output. Programs can choose to not respect this default and you can pick different devices for different programs.
@@ -147,20 +161,6 @@ The main purpose of Voicemeeter is to mix and route multiple audio sources, as w
 > In Playback, it will be called `Voicemeeter Input`. Why? From the point of view of Voicemeeter, that is indeed input. For other applications though, it sits at their output.
 > 
 > Same goes for Recording tab, where it will be called `Voicemeeter Output`. It is the overall output of Voicemeeter, but from the point of view of other programs, it will be their input.
-
-#### Inputs and outputs?
-
-It can get confusing with "playback", "recording", inputs, outputs, sources and destinations, especially when different programs call it different things.
-
-Let's define all of them properly.
-
-You have a microphone. For the computer, that's an **audio source**. The audio information is created in the mic by capturing your voice, sent over the wire and the computer receives it.
-
-To receive the signal, the computer needs an **audio input**. That's your microphone/headset jack in the computer, audio comes in here. Once plugged in, it will show up in the computer as **input device**. You're speaking into it, it sends sounds to the computer. From the point of view of the computer, that's input. Same as your keyboard - it is an *input device*.
-
-The confusing thing about it is that an *audio source* can also be running on your computer - for example, a music player app. It's also an audio source, but it's "inside". What is inside can come out, though - so you select an **output device** to play your sound. It is connected to the **audio output** of your computer (headphone jack, for example).
-
-If it's a headset, it will have both input and output in the same jack. Sound input will come from the mic on the headset and sound output will go to your headphones.
 
 [ ... ]  
 Player setup  
