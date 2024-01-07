@@ -128,6 +128,8 @@ The confusing thing about it is that an *audio source* can also be running on yo
 
 If it's a headset, it will have both input and output in the same jack. Sound input will come from the mic on the headset and sound output will go to your headphones.
 
+In the settings window above, Playback will show *output devices*. Recording will show *input devices*.
+
 ### Choosing devices per-application
 
 What you just did in the section above was setting the *default* input or output. Programs can choose to not respect this default and you can pick different devices for different programs.
