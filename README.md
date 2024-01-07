@@ -203,7 +203,9 @@ Things rarely go like you want them to. Here's what you might encounter:
 
 <details>
   <summary><b>Delay</b> <i>[click to expand]</i></summary>
-    
+
+  ---
+  
   If there's significant delay between you talking and hearing yourself, try going here:
 
   ![image](https://github.com/Algoinde/Audio/assets/10269970/abd4ac29-ed06-43e4-b28c-9d7a7b6425fc)
@@ -217,6 +219,9 @@ Things rarely go like you want them to. Here's what you might encounter:
   This should resolve the delay. If it doesn't, try closing this window and switching everything to MME instead (the mic, the output). After that, return and do the same process with `Buffering MME`.
 
   Also, are you using Bluetooth? I really hope you aren't.
+
+  ---
+  
 </details>
 
 //
