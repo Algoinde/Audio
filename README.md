@@ -144,11 +144,11 @@ There are many, many ways to go about mixing your audio, but the easiest one wou
 The main purpose of Voicemeeter is to mix and route multiple audio sources, as well as creating a handy virtual audio device that will act as a fake speaker - it will take sound from your programs but instead of playing it, it will grab the audio and put it into Voicemeeter. It's called Voicemeeter VAIO (virtual audio input-output).
 
 > [!NOTE]
-> In Playback, it will be called `Voicemeeter Input`. Why? From the point of view of Voicemeeter, that is indeed input. For other programs though, it sits at their output.
+> In Playback, it will be called `Voicemeeter Input`. Why? From the point of view of Voicemeeter, that is indeed input. For other applications though, it sits at their output.
 > 
-> Same goes for Recording tab, where it will be called `Voicemeeter Output`. It is the overall output of Voicemeeter, but for other programs, it will be their input.
+> Same goes for Recording tab, where it will be called `Voicemeeter Output`. It is the overall output of Voicemeeter, but from the point of view of other programs, it will be their input.
 
-There's also a "fake microphone" part of it, which will take the mixed audio from Voicemeeter and show up as a microphone in your programs - this is how you send the mixed audio to Discord, for example.
+"Voicemeeter Output" is a "virtual microphone". It's not a real mic, but it will show up as an audio source in your applications - this is how you send the mixed audio to Discord, for example. Apps will think it's a microphone (an audio source), but it's not actually getting sound directly from the real world (that's why it's called "virtual").
 
 [ ... ]  
 Player setup  
