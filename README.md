@@ -212,7 +212,13 @@ Things rarely go like you want them to. Here's what you might encounter:
   This should resolve the delay. If it doesn't, try closing this window and switching everything to MME instead (the mic, the output). After that, return and do the same process with `Buffering MME`.
 </details>
 
-[ ... ]  
+//
+
+//
+
+//
+
+[ to write... ]  
 Ear Trumpet  
 Discord setup  
 Effects  
