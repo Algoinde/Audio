@@ -2,7 +2,7 @@ So, you have decided to embark on the journey of *le sing* and you want it to so
 
 # What is audio?
 
-It does not matter. What matters is that others can hear it. For that, you need to know every step on the path the audio travels from you to others, because at every point of it the audio can be changed, disappeared or made worse.
+It does not matter. What matters is that others can hear it. For that, you need to know every step on the path the audio travels from you to others, because at every point of it the audio can be changed, disappeared or made worse - so take some time to understand each step on the sound's path so you can be confident that your sound is in your own, knowledgeable hands and you can easily fix it if it breaks.
 
 # The path
 
