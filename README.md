@@ -1,12 +1,12 @@
 So, you have decided to embark on the journey of *le sing* and you want it to sound good. Great, because I'm about to drown you in audio knowledge.
 
-## What is audio?
+# What is audio?
 
 It does not matter. What matters is that others can hear it. For that, you need to know every step on the path the audio travels from you to others, because at every point of it the audio can be changed, disappeared or made worse.
 
-## The path
+# The path
 
-### Sound origin
+## Sound origin
 
 ![image](https://github.com/Algoinde/Audio/assets/10269970/780e6701-9f58-41cd-b095-ae544e0c92b7)
 
@@ -14,28 +14,28 @@ You, the one who speaks or sings. In order for the device to hear you to send th
 
 Be mindful of everything *other* than you in the vicinity of the microphone. Everything that you can hear, the mic probably can, too, even the echo off the walls and the hum of a fridge or AC.
 
-### Microphones
+## Microphones
 
 Which one to get? I'll give you a short tierlist of microphones you can use.
 
-#### Garbage:
+### Garbage:
 * The built-in microphone of your laptop.
 * Anything Bluetooth (headphones, headset, etc).
 * Not having a microphone.
 
-#### Acceptable:
+### Acceptable:
 * Your phone mic.
 * A mic on a cheap headset (<$20).
 * The dingy thing on your earbuds wire.
 
-#### Good:
+### Good:
 * Wired headset with a quality mic. It will usually cost no less than $50.
 * A USB mic on a desk stand. Good ones start from, at minimum, $40.
 
-#### Better:
+### Better:
 * A USB mic on a mic arm.
 
-#### Absolute peak:
+### Absolute peak:
 * An XLR-connected mic on a mic arm, plugged into a USB audio interface. This will cost you in the vicinity of $150 - $200.
 
 Here's some reasoning behind this ranking.
@@ -57,7 +57,7 @@ XLR mic + DAC is *the* professional setup which ensures no quality loss at any p
 > [!NOTE]
 > You really don't need to jump into the most expensive option. Grab what you have, even your cheap headset, and proceed with it - the key here is gaining experience in setting this all up so you can swap to something better with ease later.
 
-### What you plug it into
+## What you plug it into
 
 This will depend on the mic setup you've chosen.
 
@@ -80,13 +80,13 @@ Depending on the type of XLR mic you have, it may require +48V power from your a
 
 Also, your headphones will then go in the audio interface as well. They may need a plug adapter from smol headphone jack to the big one.You can also plug your speakers into it, requiring another type of audio cable.
 
-### The software side
+## The software side
 
 Let's discuss the next step in the chain of sound. Once you've plugged in your stuff, you need to check it's actually working.
 
 This is where things start to get annoying. You've already spent the money, now we start spending braincells.
 
-#### Windows: The system sound settings
+### Windows: The system sound settings
 
 You need to open the Sound Settings Panel (the old one (the good one)) in Windows. Press Win+R, type `mmsys.cpl` and press Enter. You can also get to it by typing "Change system sounds" in the Start menu search.
 
@@ -114,7 +114,7 @@ Once you've found the correct devices and figured out what their names are (reme
 >
 > While you're there, disable all "Enhancements" too, if there are any. We can bring them back later, but you should always start with a clean signal.
 
-#### Inputs and outputs?
+### Inputs and outputs?
 
 It can get confusing with "playback", "recording", inputs, outputs, sources and destinations, especially when different programs call it different things.
 
@@ -128,7 +128,7 @@ The confusing thing about it is that an *audio source* can also be running on yo
 
 If it's a headset, it will have both input and output in the same jack. Sound input will come from the mic on the headset and sound output will go to your headphones.
 
-#### Choosing devices per-application
+### Choosing devices per-application
 
 What you just did in the section above was setting the *default* input or output. Programs can choose to not respect this default and you can pick different devices for different programs.
 
@@ -147,7 +147,7 @@ In the "Apps" below you will see all applications that are outputting sound at t
 The second way is to set this up in the app itself. Some apps have audio settings and allow you to select what device to use - in Discord, for example, you need to go to Settings -> Voice & Video and select them there.  
 "Input device" in applications usually means "this is what I will get sound from" (a microphone), and "Output device" means "this is what I will send sound to" (speakers).
 
-#### Voicemeeter
+### Voicemeeter
 
 There are many, many ways to go about mixing your audio, but the easiest one would be to use [Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm). It will allow you to:
 
