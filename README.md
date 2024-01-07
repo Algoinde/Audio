@@ -54,6 +54,9 @@ XLR mic + DAC is *the* professional setup which ensures no quality loss at any p
 
 ![image](https://github.com/Algoinde/Audio/assets/10269970/663c9fd0-04b8-451a-ab84-4a73eddd8e47)
 
+> [!NOTE]
+> You really don't need to jump into the most expensive option. Grab what you have, even your cheap headset, and proceed with it - the key here is gaining experience in settings this all up so you can swap to something better with ease later.
+
 ### What you plug it into
 
 This will depend on the mic setup you've chosen.
