@@ -63,7 +63,7 @@ If it's like this, it will go into your headset jack.
 
 ![image](https://github.com/Algoinde/Audio/assets/10269970/fa7285ee-a0cf-4a13-af6e-3f6782b00dcf)
 
-Some PCs may not have a headset jack, but they will have a separate mic and headphone jack. In this case, you will also need a splitter cable like this.
+Some PCs may not have a headset jack, but they will have a separate ${{\color{Pink}{\textbf{⭘\}}}}\$ mic and ${{\color{lightgreen}{\textbf{⭘\}}}}\$ headphone jack. In this case, you will also need a splitter cable like this.
 
 ![image](https://github.com/Algoinde/Audio/assets/10269970/9eeb7a29-aa36-470c-bef2-f7559eb386c8)
 
