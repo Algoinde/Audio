@@ -105,7 +105,10 @@ In the Recording tab, get real close to your mic or tap on it *lightly* and see 
 Once you've found the correct devices and figured out what their names are (remember them for later!), you're halfway there.
 
 > [!IMPORTANT]  
-> Changing, connecting or disconnecting audio devices can make things hiccup or stop. You may need to restart playback, restart the audio player, restart Discord (full-quit it from the taskbar in the bottom right) and so on.
+> Changing, connecting or disconnecting audio devices can make things hiccup or stop. Here's ways to unhiccup it:
+> * restart playback
+> * reselect output/input device in settings
+> * restart the app (if it's Discord, full-quit it from the taskbar in the bottom right)
 
 > [!TIP]  
 > Go into *all* your devices' properties, both playback and recording ones, by double-clicking them. On the Advanced tab, disable everything in "Exclusive mode". This will prevent programs wrestling over the device and causing hard-to-figure-out debauchery. Some games may not like this though, so if you run into issues down the line we'll turn it back on.
