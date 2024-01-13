@@ -253,7 +253,7 @@ This is the settings window you're looking for in Discord (⚙️ in the bottom 
 
 To receive audio from VoiceMeeter, select VoiceMeeter Output as the input device and your headphones as the output device.
 
-Keep in mind that when you do changes to devices or device settings in Voicemeeter or in Windows, you need to reselect them in Discord, else the sound in discord drops away.
+Keep in mind that when you do changes to devices or device settings in Voicemeeter or in Windows, Discord drops away the sound. You need to select the devices again and it'll reconnect them to the active voice call.
 
 Next step: lower the threshold so your mic is not cutting out (disable "Automatically determine input sensitivity"). Speak into the mic very calmly and move the slider so your voice is *always* above the yellow line.
 
