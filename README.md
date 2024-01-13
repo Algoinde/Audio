@@ -137,11 +137,29 @@ What you just did in the section above was setting the *default* input or output
 
 There's two ways to do this. The first one is in the system itself:
 
-![image](https://github.com/Algoinde/Audio/assets/10269970/605564c8-c613-4687-a585-189c4aa3fd0e)
+<details>
+  <summary><b>Windows 10</b> <i>[click to expand]</i></summary>
 
-Right click your audio icon and go to Volume mixer.
+  ---
+  
+  Press `Win` + `S` and type "App volume". This is the settings window you're looking for:
 
-![image](https://github.com/Algoinde/Audio/assets/10269970/c522a0ec-34ad-455a-9c02-62f51cd60362)
+  ![image](https://github.com/Algoinde/Audio/assets/10269970/550f775a-78bf-4d0c-b72d-860af5835c71)
+
+</details>
+
+<details>
+  <summary><b>Windows 11</b> <i>[click to expand]</i></summary>
+
+  ---
+  
+  ![image](https://github.com/Algoinde/Audio/assets/10269970/605564c8-c613-4687-a585-189c4aa3fd0e)
+  
+  Right click your audio icon and go to Volume mixer.
+  
+  ![image](https://github.com/Algoinde/Audio/assets/10269970/c522a0ec-34ad-455a-9c02-62f51cd60362)
+  
+</details>
 
 In the top "System" section will be your default-chosen devices (this part is pretty much the same as the window we opened before, but it's new and clunky).
 
@@ -227,8 +245,15 @@ Things rarely go like you want them to. Here's what you might encounter:
   
 </details>
 
+#### 4. Discord
 
-# 
+This is the settings window you're looking for in Discord (⚙️ in the bottom left -> `Voice & Video`):
+
+![image](https://github.com/Algoinde/Audio/assets/10269970/4483a670-13c4-486a-99d6-c1ea0030f9c9)
+
+To receive audio from VoiceMeeter, select VoiceMeeter Output as the input device and your headphones as the output device.
+
+Keep in mind that when you do changes to devices or device settings in Voicemeeter or in Windows, you need to reselect them in Discord, else the sound in discord drops away.
 
 ---
 
