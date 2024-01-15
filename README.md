@@ -255,10 +255,6 @@ To receive audio from VoiceMeeter, select VoiceMeeter Output as the input device
 
 Keep in mind that when you do changes to devices or device settings in Voicemeeter or in Windows, Discord drops away the sound. You need to select the devices again and it'll reconnect them to the active voice call.
 
-Next step: lower the threshold so your mic is not cutting out (disable "Automatically determine input sensitivity"). Speak into the mic very calmly and move the slider so your voice is *always* above the yellow line.
-
-![image](https://github.com/Algoinde/Audio/assets/10269970/75e5d4ac-7452-4e66-8b85-3fb2110ab65d)
-
 Scroll down a bunch to Advanced and disable all of these, like shown in the screenshot:
 
 ![image](https://github.com/Algoinde/Audio/assets/10269970/829e1733-5d4e-4b72-b574-418517a299b5)
@@ -268,6 +264,10 @@ Reasons we're disabling these:
 * Echo cancellation: this will try to prevent the music you're listening to leaking back into the mic. We obviously don't want that.
 * Noise suppression: will mangle your voice and will kill any instruments and background music.
 * Automatic gain control: ideally you should be controlling the gain (volume) yourself, don't let Discord decide.
+
+Now, scroll back up and lower the threshold so your mic is not cutting out (disable "Automatically determine input sensitivity"). Speak into the mic very calmly and move the slider so your voice is *always* above the yellow line, and the noise level (when you're not speaking) is below the yellow line.
+
+![image](https://github.com/Algoinde/Audio/assets/10269970/75e5d4ac-7452-4e66-8b85-3fb2110ab65d)
 
 ---
 
