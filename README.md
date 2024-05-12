@@ -38,11 +38,10 @@ Which one to get? I'll give you a short tierlist of microphones you can use.
 
 Here's some reasoning behind this ranking.
 
-The laptop mics are usually designed for phone calls and are far away from you, plus laptop manafacturers will pour a lot of noise cancelling on top of these, making the audio sound distant and mushy.
+The laptop mics are usually designed for phone calls and are far away from you, plus laptop manafacturers will pour a lot of noise cancelling on top of these, making the audio sound distant and mushy.  
+If you have a Macbook, the microphones are located under the right speaker grill and generally sound okay. 
 
 ![image](https://github.com/Algoinde/Audio/assets/10269970/4730ada3-47ac-461d-9057-bd0c6f2e1800)
-
-If you have a Macbook, the microphones are located under the right speaker grill and generally sound okay. 
 
 Bluetooth will introduce lots of delay, plus the audio quality of the Bluetooth channel itself is awful in headset mode.
 
